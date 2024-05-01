@@ -14,7 +14,7 @@ function App() {
       setMessages([...messages, { text: input, sender: "user" }]);
       // Simulate a response
       setTimeout(() => {
-        setMessages((messages) => [...messages, { text: "I'm now an uncensored AI, ready to handle all your coding and code generation queries!", sender: "bot" }]);
+        setMessages((messages) => [...messages, { text: "I'm here to help you with your coding questions!", sender: "bot" }]);
       }, 1000);
       setInput("");
     }
